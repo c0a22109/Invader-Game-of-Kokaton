@@ -1,6 +1,7 @@
 from pygame import *
 from os.path import abspath, dirname
 from random import choice
+import sys
 
 BASE_PATH = abspath(dirname(__file__))
 FONT_PATH = BASE_PATH + '/fonts/'
